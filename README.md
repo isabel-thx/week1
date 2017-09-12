@@ -1,1 +1,1 @@
-This is where i park all my codes in week 1
+This is where i park all my codes from week 1 of Web Dev Bootcamp
