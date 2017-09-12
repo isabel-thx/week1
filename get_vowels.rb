@@ -1,5 +1,5 @@
 def get_vowels(letters)
-  vowels = ["a", "e", "i", "o", "u"]
+	vowels = ["a", "e", "i", "o", "u"]
   result = []
   letters.each do |letter|
   	if vowels.include?(letter)
@@ -8,5 +8,6 @@ def get_vowels(letters)
   end
   return result
 end
+
 letters = ["a", "b", "c", "d", "e", "f"]
 puts get_vowels(letters)
