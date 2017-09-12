@@ -12,7 +12,7 @@ puts has_ssn?("please confirm your identity: XXX-XX-1422") == false
 
 # Return the Social Security number from a string.
 def grab_ssn(string)
-	return string[/(\d{3})-(\d{2})-(\d{4})/]
+  return string[/(\d{3})-(\d{2})-(\d{4})/]
 end
 
 puts "grab_ssn returns an SSN if the string has an SSN"
