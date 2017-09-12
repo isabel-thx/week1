@@ -1,7 +1,7 @@
 def anagrams_for(word, dictionary)
   arr = []
-  dictionary.each do |i|																				#INDEX!!! omg
-	  if word.downcase.split(//).sort == i.downcase.split(//).sort
+  dictionary.each do |i|				
+    if word.downcase.split(//).sort == i.downcase.split(//).sort
       arr.push i
     end
   end
