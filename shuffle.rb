@@ -2,7 +2,7 @@ def shuffle(array)
   shuffled_arr = []
   array1 = array.dup
   while !array1.empty?
-    shuffled_arr.push(array1.delete(array1.sample)) 		#delete the sample
+    shuffled_arr.push(array1.delete(array1.sample))     #delete the sample
   end													                        	#and push to new array
   shuffled_arr
 end
