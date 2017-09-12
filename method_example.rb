@@ -1,5 +1,5 @@
 def sum_triplets(x, y, z)
-	x + y + z
+  x + y + z
 end
 
 ###############
