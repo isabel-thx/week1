@@ -1,17 +1,20 @@
 def destroy_message
   puts "write me a message that will self destruct. start with 'message:'"
   string = gets.chomp
-  if string.include?(":")
-  p new_string = string.gsub(/:.*/, ":") #slice(0..(string.index(":")))
-  end
-	p string
+    if string.include?(":")
+      p new_string = string.gsub(/:.*/, ":")		#slice(0..(string.index(":")))
+    end
+  p string
 end
-  destroy_message
+
+destroy_message
+
 
 def destroy_message!(string)
   if string.include?(":")
-  p new_string = string.gsub!(/:.*/, ":")
+    p new_string = string.gsub!(/:.*/, ":")
   end
-	p string
+  p string
 end
-  destroy_message!("message: hi!")
+
+destroy_message!("message: hi!")
